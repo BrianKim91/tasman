@@ -1,0 +1,23 @@
+first default page must be index.html
+
+
+
+
+https://www.flickr.com/photos/eclecticstudio/sets/72157653364275676
+https://www.behance.net/gallery/27280609/2015-BIKE-SHED-LONDON
+	
+
+
+target audience : motorcycle mania
+
+index.html
+image source - http://thebikeshed.cc/2015/03/31/london-tickets/
+content - http://thebikeshed.cc/2015/03/31/london-tickets/
+
+about.html
+youtube link - https://www.youtube.com/watch?v=kT4fC8HiDlk
+contents - https://www.facebook.com/BikeShedMotorcycleClub/info?tab=page_info (The Bike)
+
+Contact - google map - https://www.google.co.nz/maps/place/Tobacco+Dock/@51.507959,-0.058841,17z/data=!3m1!4b1!4m2!3m1!1s0x48760331dd10ff3f:0x438a8f1c8d683e45
+
+Exhibits left - use either spry collapsible panel or tool tip to insert image in it.

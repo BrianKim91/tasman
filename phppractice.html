@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<head>
+	
+	
+	<title></title>
+
+	
+</head>
+
+<body>
+
+<?php
+$host="localhost"; // Host name 
+$username="root"; // Mysql username 
+$password="111111"; // Mysql password 
+$db_name="tutorial"; // Database name 
+	
+// Connect to server and select database.
+mysql_connect("$host", "$username", "$password") or die("cannot connect"); 
+mysql_select_db("$db_name")or die("cannot select DB");
+	
+$query = "INSERT INTO `users`  (`email`, `password`, `firstname`, `lastname`, `gender`, `country`,  `updated`) VALUES ('".$_POST['email']."', MD5('".$_POST['password']."'), '".$_POST['firstname']."', 
+	'".$_POST['lastname']."', '".$_POST['gender']."', '".$_POST['country']."', '".date('Y-m-d H:i:s')."');";
+
+$result = mysql_query($query);
+
+?>
+
+
+</body>
+</html>
